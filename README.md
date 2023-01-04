@@ -7,7 +7,7 @@ The EB-AFIT algorithm supports full item rotation and has excellent runtime perf
 
 ## Usage    //使用说明
 
-Start by including the ContainerPacking project in your solution.
+Start by including the ContainerPacking project in your solution.   //包含一个 ContainerPacking 项目 在解决方案中
 
 Create a list of Container objects, which describes the dimensions of the containers:
 
