@@ -9,13 +9,13 @@ The EB-AFIT algorithm supports full item rotation and has excellent runtime perf
 
 Start by including the ContainerPacking project in your solution.   //包含一个 ContainerPacking 项目 在解决方案中
 
-Create a list of Container objects, which describes the dimensions of the containers:
+Create a list of Container objects, which describes the dimensions of the containers:   //描述三维（id，长度，宽度，高度）
 
     List<Container> containers = new List<Container>();
     containers.Add(new Container(id, length, width, height));
     ...
 
-Create a list of items to pack:
+Create a list of items to pack: //创建 一个 list 的物件 来打包
 
     List<Item> itemsToPack = new List<Item>();
     itemsToPack.Add(new Item(id, dim1, dim2, dim3, quantity));
