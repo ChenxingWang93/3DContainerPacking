@@ -21,13 +21,13 @@ Create a list of items to pack: //创建 一个 list 的物件 来打包
     itemsToPack.Add(new Item(id, dim1, dim2, dim3, quantity));
     ...
 
-Create a list of algorithm IDs corresponding to the algorithms you would like to use. (Currently EB-AFIT is the only algorithm implemented.) Algorithm IDs are listed in the AlgorithmType enum.
+Create a list of algorithm IDs corresponding to the algorithms you would like to use. (Currently EB-AFIT is the only algorithm implemented.) Algorithm IDs are listed in the AlgorithmType enum.    // 一个 list 的 algorithm IDs 对应要使用的算法（当前的 EB-AFIT 是唯一实施的算法）Algorithm IDs 罗列在 AlgorithmType enum 中
 
     List<int> algorithms = new List<int>();
     algorithms.Add((int)AlgorithmType.EB_AFIT);
     ...
 
-Call the Pack method on your container list, item list, and algorithm list:
+Call the Pack method on your container list, item list, and algorithm list: //Call 打包方式 在 container list、item list、与algorithm list
 
     List<ContainerPackingResult> result = PackingService.Pack(containers, itemsToPack, algorithms);
 
