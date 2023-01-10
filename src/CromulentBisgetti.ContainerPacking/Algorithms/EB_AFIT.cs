@@ -81,15 +81,17 @@ namespace CromulentBisgetti.ContainerPacking.Algorithms
 		private int packedItemCount;
 		private int x;
 
+		// 6 possible orientations
 		private decimal bbfx;
 		private decimal bbfy;
 		private decimal bbfz;
-		private decimal bboxx;
-		private decimal bboxy;
-		private decimal bboxz;
 		private decimal bfx;
 		private decimal bfy;
 		private decimal bfz;
+		
+		private decimal bboxx;
+		private decimal bboxy;
+		private decimal bboxz;
 		private decimal boxx;
 		private decimal boxy;
 		private decimal boxz;
