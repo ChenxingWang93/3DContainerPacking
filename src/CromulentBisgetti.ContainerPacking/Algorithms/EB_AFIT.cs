@@ -120,7 +120,7 @@ namespace CromulentBisgetti.ContainerPacking.Algorithms
 		#region Private Methods
 
 		/// <summary>
-		/// Analyzes each unpacked box to find the best fitting one to the empty space given.
+		/// Analyzes each unpacked box to find the best fitting one to the empty space given. 分析每个未打包的盒子找到最合适的一个填补给定空间
 		/// </summary>
 		private void AnalyzeBox(decimal hmx, decimal hy, decimal hmy, decimal hz, decimal hmz, decimal dim1, decimal dim2, decimal dim3)
 		{
@@ -196,7 +196,7 @@ namespace CromulentBisgetti.ContainerPacking.Algorithms
 		}
 
 		/// <summary>
-		/// After finding each box, the candidate boxes and the condition of the layer are examined.
+		/// After finding each box, the candidate boxes and the condition of the layer are examined. 找到每个盒子之后，候选盒与层的条件被检验
 		/// </summary>
 		private void CheckFound()
 		{
@@ -282,7 +282,7 @@ namespace CromulentBisgetti.ContainerPacking.Algorithms
 		}
 
 		/// <summary>
-		/// Executes the packing algorithm variants.
+		/// Executes the packing algorithm variants. 执行打包函数 的变量
 		/// </summary>
 		private void ExecuteIterations(Container container)
 		{
@@ -388,7 +388,7 @@ namespace CromulentBisgetti.ContainerPacking.Algorithms
 		}
 
 		/// <summary>
-		/// Finds the most proper boxes by looking at all six possible orientations,
+		/// Finds the most proper boxes by looking at all six possible orientations,	
 		/// empty space given, adjacent boxes, and pallet limits.
 		/// </summary>
 		private void FindBox(decimal hmx, decimal hy, decimal hmy, decimal hz, decimal hmz)
